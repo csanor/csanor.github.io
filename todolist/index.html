@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="boxOuter">
+        <div id="boxInner">
+            <div id="boxTodos">TODOS</div>
+            <div id="boxInput">
+                <input id="inputText" type="text">
+                <button id="buttonAdd">Add</button>
+            </div> <!-- boxInput -->
+
+            <div class="boxItems" id="1">
+                <div class="boxItem" id="1">Wake up</div>
+                <button class="boxTrashbin" id="1" onclick="funcRemove(1)"></button>
+                <button class="boxDone" id="1" onclick="funcDone(1)"></button>
+            </div> <!--boxItems-->
+
+        </div> <!-- boxInner -->
+    </div> <!-- boxOuter -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>

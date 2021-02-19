@@ -1,0 +1,95 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(104, 104, 104);
+}
+
+#boxOuter {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    background-color:aquamarine;
+    margin: auto;
+    padding: 30px;
+}
+
+#boxInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    background-color:rgb(230, 247, 240);
+}
+
+#boxTodos {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin: 30px;
+}
+
+#boxInput {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start
+    width: 400px;
+    height: 50px;
+    margin: 0 0 30px 0;
+    border:rgb(104, 104, 104) solid 3px;
+}
+
+#inputText {
+    width: 300px;
+    margin: 0;
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#buttonAdd {
+    width: 84px;
+    height: 52px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: rgb(223, 105, 232);
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.boxItems {
+    display: flex;
+    align-items: center;
+    width: 404px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.boxItem {
+    width: 325px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.boxTrashbin {
+    background-image: url('./images/trashbin.png');
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+.boxDone {
+    background-image: url('./images/done.png');
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.boxDoneInvisible {
+    background-image: url('./images/done_grey.png');
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
