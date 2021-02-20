@@ -1,18 +1,17 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
 #divMainFrame {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     width: 1000px;
-    /*
-    background: url('./images/White-Wallpaper-For-Pc.jpg');
-    background: url('./images/White-Wallpaper-Background.jpg');
-    background: url('./images/Brushed Aluminum Wallpapers.png');
-    background: url('./images/White-Lace-Wallpaper-Border.jpg');
-    background: url('./images/wallpapertip_white-wallpaper-full-hd_1115846.png');
-    */
-    background: url('./images/White-Wallpaper-For-Pc.jpg');
-    background-size: cover;
+    height: 700px;
+    /*background: url('./images/White-Wallpaper-For-Pc.jpg');*/
+    /*background-size: cover;*/
+    background-size: 1000px 700px;
     margin: auto;
     margin-top: 70px;
     border: solid black 1px;
@@ -57,7 +56,7 @@ button {
     height: 100px;
     background-color: blue;;
     background-color: #ffffff;
-    opacity: 0.4;
+    opacity: 0.5;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -65,12 +64,12 @@ button {
 
 #divImageTitle {
     font-size: larger;
-    font-weight:bold;
+    font-weight:700;
 }
 
 #divImageText {
     margin-top:5px;
-    font-size: larger;
+    font-weight: 700;
 }
 
 #divThumbFrame {
@@ -86,7 +85,25 @@ button {
 .divThumb {
     width: 70px;
     height: 70px;
-    background-color: yellow;
     margin: 10px;
+    /*
     background-size: cover;
+    */
+    background-size: 70px 70px;
+    box-shadow: 10px 10px 10px #666;
+}
+
+#divInfo {
+    border: black solid 1px;
+    border-radius: 10px;;
+    width: 200px;
+    padding: 10px;
+    position: relative;
+    top: -730px;
+    /*left: -638px;*/
+    left: -630px;
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 10px 10px 10px #bbb;
 }

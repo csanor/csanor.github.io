@@ -5,24 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Aviation</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">    <title>Aviation</title>
 </head>
 <body>
     <div id="divMainFrame">
         <div id="divImageFrame">
             <button id="buttonLeft"><img src="./images/arrow.svg" alt="left"></button>
             <div id="divImageContainer">
-                <div id="divImage">
-<!--                    <img src="./images/wallpapertip_white-wallpaper-full-hd_1115846.png" alt="valami">-->
-                </div>
+                <div id="divImage"></div>
                 <div id="divImageDescription">
                     <div id="divImageTitle"></div>
                     <div id="divImageText"></div>
                 </div>
-            </div>
+            </div> <!--<div id="divImageContainer">-->
 
             <button id="buttonRight"><img src="./images/arrow.svg" alt="right" style="transform:rotate(180deg);"></button>
-        </div>
+        </div> <!--<div id="divImageFrame">-->
 
         <div id="divThumbFrame">
             <div id="th01" class="divThumb"></div>
@@ -31,9 +30,11 @@
             <div id="th04" class="divThumb"></div>
             <div id="th05" class="divThumb"></div>
             <div id="th06" class="divThumb"></div>
-        </div>
+        </div> <!--<div id="divThumbFrame">-->
 
-    </div>
+        <div id="divInfo">Click on frame to change background!</div>
+
+    </div> <!--<div id="divMainFrame">-->
 
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
