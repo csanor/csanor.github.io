@@ -101,7 +101,8 @@ button {
     position: relative;
     top: -730px;
     /*left: -638px;*/
-    left: -630px;
+    left: -540px;
+    background: #ffffff;
     margin: 0;
     text-align: center;
     font-weight: 600;
