@@ -1,0 +1,92 @@
+#divMainFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    /*
+    background: url('./images/White-Wallpaper-For-Pc.jpg');
+    background: url('./images/White-Wallpaper-Background.jpg');
+    background: url('./images/Brushed Aluminum Wallpapers.png');
+    background: url('./images/White-Lace-Wallpaper-Border.jpg');
+    background: url('./images/wallpapertip_white-wallpaper-full-hd_1115846.png');
+    */
+    background: url('./images/White-Wallpaper-For-Pc.jpg');
+    background-size: cover;
+    margin: auto;
+    margin-top: 70px;
+    border: solid black 1px;
+}
+
+#divImageFrame {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 30px #333;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+button {
+    border: none;
+    outline: none;
+    width: 50px;
+    background-color: #ffffff;
+}
+
+#divImageContainer {
+    flex-grow: 1;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#divImage {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+#divImageDescription {
+    position: relative;
+    top: -130px;
+    height: 100px;
+    background-color: blue;;
+    background-color: #ffffff;
+    opacity: 0.4;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#divImageTitle {
+    font-size: larger;
+    font-weight:bold;
+}
+
+#divImageText {
+    margin-top:5px;
+    font-size: larger;
+}
+
+#divThumbFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+    height: 110px;
+    margin-bottom: 30px;
+}
+
+.divThumb {
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    margin: 10px;
+    background-size: cover;
+}
